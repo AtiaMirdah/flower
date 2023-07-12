@@ -1,6 +1,8 @@
+/* Shared Styles */
 body{
     margin: 0;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #FFF;
 }
 
@@ -9,12 +11,17 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin: 10px 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .content{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .primary-btn{
     border-radius: 5px;
@@ -34,34 +41,86 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1% 10%;
-    gap: 100px;
-}
-.banner-container{
-   width: 60%;
+    padding: 0 150px;
+    gap: 80px;
 }
 .banner-title{
     color: #272727;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner .content{
+    text-align: left;
+}
+
+/* Featured Styles */
+.featured{
+    margin-top: 30px;
+    padding: 80px 150px;
+    text-align: center;
+}
+.featured-top{
+    margin: auto;
+    margin-bottom: 70px;
+    max-width: 500px;
+}
+.img-content{
+    display: inline-block;
+}
+.img-content  img{
+    width: 300px;
+    height: 370px;
+}
+.img-content .first{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 25px 0 25px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+.img-content .second{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 25px 0 25px;
+    margin-right: 24px;
+    margin-bottom: 40px;
+}
+
+.img-content .third{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 25px 0 25px;
+    margin-bottom: 40px;
+}
+.img-content .link{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
 /* Deal Styles */
 .deal{
-    margin: 100px 0;
+    margin: 50px 0;
     background: #fdedf0;
-}
-.banner-container{
-    width: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .deal-container{
     text-align: center;
-    width: 50%;
 }
+.deal-container .off{
+    color:#E55473
+}
+
+/* Instagram Styles */
 .instagram{
-    padding: 0 10%;
+    padding: 50px 150px;
     margin: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 
 }
 .insta-top{
@@ -79,13 +138,54 @@ header{
     padding: 12px;
 
 }
+/* Client Styles */
+.client{
+    text-align: center;
+    display: block;
+}
+
+.client .content{
+    max-width: 600px;
+    margin: auto;
+}
+.client-container {
+    text-align: center;
+    margin: 50px ;
+}
+.client-container .client-item{
+    width: 370px;
+    display: inline-block;
+    margin: 20px;
+}
+.client-container .client-item img{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.client-container .client-item p{
+    font-style: italic;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+}
+.client-container .client-item h4{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+/* Latest Deal Styles */
 .latest-deal{
     text-align: center;
     background-image: url('Asset/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    background: cover;
-    padding: 150px 200px;
-    margin: 100px 200px;
+    background-size: cover;
+    padding: 50px 150px;
+    margin: 0 150px;
+}
+.latest-deal-form{
+    padding-bottom: 60px;
 }
 .latest-deal-form input[type="email"]{
     width: 300px;
@@ -94,4 +194,28 @@ header{
     font-size: 20px;
     border: 0;
     border-radius: 5px;
+}
+
+/* Footer Styles */
+footer{
+    background: #111010;
+    padding: 40px 150px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px
+    font-weight: 400;
+    margin-top: 150px;
+}
+.footer-title{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-title .shop{
+    color: #FFF;
+}
+footer .copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    padding-bottom: 40px;
 }
