@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Lato;
+    background: #FFF;
+}
+
+.title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.content{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.primary-btn{
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 20px 40px;
+}
+/* Header Styles */
+header{
+    background: #fae9ed;
+    font-family: Lato;
+}
+.banner, .deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 10%;
+    gap: 100px;
+}
+.banner-container{
+   width: 60%;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+}
+/* Deal Styles */
+.deal{
+    margin: 100px 0;
+    background: #fdedf0;
+}
+.banner-container{
+    width: 50%;
+}
+
+.deal-container{
+    text-align: center;
+    width: 50%;
+}
+.instagram{
+    padding: 0 10%;
+    margin: 0;
+    margin-bottom: 100px;
+
+}
+.insta-top{
+    background: #FFF;
+    margin: auto;
+    text-align: center;
+    width: 40%;
+}
+.insta-img{
+    text-align: center;
+}
+.insta-img img{
+    display: inline-block;
+    width: 22%;
+    padding: 12px;
+
+}
+.latest-deal{
+    text-align: center;
+    background-image: url('Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background: cover;
+    padding: 150px 200px;
+    margin: 100px 200px;
+}
+.latest-deal-form input[type="email"]{
+    width: 300px;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
